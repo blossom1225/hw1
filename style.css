@@ -22,7 +22,11 @@ p {
     color: white;
 }
 
-.countdown {
+a {
+ color: red;
+}
+
+.count {
     display: inline-block;
     border: 2px solid #333;
     padding: 20px;
@@ -30,6 +34,6 @@ p {
     margin-top: 10px;
 }
 
-#countdown {
+#count {
     font-weight: bold;
 }

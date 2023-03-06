@@ -1,0 +1,35 @@
+body {
+    /* margin是調整border外的邊界
+    padding則是調整border內到內文之間的距離。 */
+    margin: 0;
+    padding: 0;
+    /* Set a background-image */
+    background: url("https://elfsight.com/wp-content/uploads/2018/09/elfsight-blog-youtube-not-working-1.jpg");
+    /* to make the background of an element more transparent */
+    opacity: 1;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.countdown {
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#countdown {
+    font-weight: bold;
+}
